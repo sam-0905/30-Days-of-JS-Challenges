@@ -1,6 +1,4 @@
 # 30-Days-of-JS-Challenges
 This repo is practise hands on JS by solving 30 Days of JS coding challenges
 
-## Day1:
-
-
+## Day1 - Drum Kit in JS:
