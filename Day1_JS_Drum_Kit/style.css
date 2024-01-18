@@ -6,5 +6,55 @@
 }
 
 h1 {
-    color: greenyellow;
+    text-align: center;
+    color: ghostwhite;
+    margin-top: 1em;
 }
+
+body {
+    background-image: url(./Assets/Drum_pic.jpg);
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+}
+
+.keys {
+    display: flex;
+    flex-direction: row;
+    margin-top: 7em;
+    text-align: center;
+}
+
+kbd {
+    letter-spacing: 1px;
+    font-size: 2.8em;
+}
+
+.key {
+    margin: 1em;
+    padding: 0.5em;
+    text-align: center;
+    transition: all 0.07s;
+    /*For animation*/
+    cursor: pointer;
+    font-size: 1.2em;
+    border: 1.5px solid gainsboro;
+    text-transform: uppercase;
+    background-color: #500716;
+    color: blanchedalmond;
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: wheat;
+    box-shadow: 2px 3px 15px #FFEF06;
+}
+
+
+/*  colors  
+#FFEF06
+#8DFF0A
+#0CD4FF 
+#F500EB
+#FF3A06
+ */
